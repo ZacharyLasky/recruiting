@@ -1,8 +1,3 @@
-import { imageSizer } from "./imageSizer";
-import {
-  missionContent,
-  purposeContent,
-  promiseContent
-} from "./descriptivePageContent";
+import { missionContent, purposeContent, promiseContent } from './descriptivePageContent';
 
-export { imageSizer, missionContent, purposeContent, promiseContent };
+export { missionContent, purposeContent, promiseContent };

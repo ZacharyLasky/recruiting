@@ -1,48 +1,20 @@
-import React from "react";
-import { imageSizer } from "../lib";
+import React from 'react';
 
 function SvgUpdatedResume(props) {
   return (
     <svg
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
-      width={imageSizer().width}
-      height={imageSizer().height}
+      width="50vw"
+      height="40vh"
       viewBox="0 0 779.32 579.944"
-      {...props}
-    >
-      <path
-        data-name="Rectangle 62"
-        fill="#e6e6e6"
-        d="M.3 19.289h703.576v333.859H.3z"
-      />
-      <path
-        data-name="Rectangle 75"
-        fill="#fff"
-        d="M20.419 47.918h663.339v278.549H20.419z"
-      />
+      {...props}>
+      <path data-name="Rectangle 62" fill="#e6e6e6" d="M.3 19.289h703.576v333.859H.3z" />
+      <path data-name="Rectangle 75" fill="#fff" d="M20.419 47.918h663.339v278.549H20.419z" />
       <path data-name="Rectangle 80" fill="#f2f230" d="M0 0h703.576v29.89H0z" />
-      <circle
-        data-name="Ellipse 90"
-        cx={22.212}
-        cy={17.576}
-        r={5.54}
-        fill="#fff"
-      />
-      <circle
-        data-name="Ellipse 91"
-        cx={43.24}
-        cy={17.576}
-        r={5.54}
-        fill="#fff"
-      />
-      <circle
-        data-name="Ellipse 92"
-        cx={64.269}
-        cy={17.576}
-        r={5.54}
-        fill="#fff"
-      />
+      <circle data-name="Ellipse 90" cx={22.212} cy={17.576} r={5.54} fill="#fff" />
+      <circle data-name="Ellipse 91" cx={43.24} cy={17.576} r={5.54} fill="#fff" />
+      <circle data-name="Ellipse 92" cx={64.269} cy={17.576} r={5.54} fill="#fff" />
       <path fill="#e6e6e6" d="M402.655 90.268h93.423v7.022h-93.423z" />
       <path fill="#f2f230" d="M402.655 110.882h144.266v7.022H402.655z" />
       <path
@@ -77,18 +49,12 @@ function SvgUpdatedResume(props) {
         d="M182.17 192.072a85.47 85.47 0 01-57.24-.222l-.011-.008 12.354-24.386h33.165z"
         fill="#fff"
       />
-      <path
-        fill="#ffb7b7"
-        d="M656.072 567.394h-12.259l-5.833-47.288 18.095.001-.003 47.287z"
-      />
+      <path fill="#ffb7b7" d="M656.072 567.394h-12.259l-5.833-47.288 18.095.001-.003 47.287z" />
       <path
         d="M659.2 579.278l-39.532-.001v-.5a15.387 15.387 0 0115.387-15.386H659.2z"
         fill="#2f2e41"
       />
-      <path
-        fill="#ffb7b7"
-        d="M686.016 567.394h12.26l5.832-47.288-18.094.001.002 47.287z"
-      />
+      <path fill="#ffb7b7" d="M686.016 567.394h12.26l5.832-47.288-18.094.001.002 47.287z" />
       <path
         d="M682.889 563.392l24.144-.001a15.387 15.387 0 0115.387 15.386v.5l-39.53.001z"
         fill="#2f2e41"

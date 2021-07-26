@@ -1,104 +1,37 @@
-import React from "react";
-import { imageSizer } from "../lib";
+import React from 'react';
+import { imageSize } from '../lib';
 
 function SvgOnlineResume(props) {
   return (
     <svg
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
-      width={imageSizer().width}
-      height={imageSizer().height}
+      width="50vw"
+      height="40vh"
       viewBox="0 0 931 633.235"
-      {...props}
-    >
+      {...props}>
       <g data-name="Group 41">
         <path
           data-name="Rectangle 62"
           fill="#e6e6e6"
           d="M120.363 297.375h703.576v333.859H120.363z"
         />
-        <path
-          data-name="Rectangle 75"
-          fill="#fff"
-          d="M140.482 326.004h663.339v278.549H140.482z"
-        />
-        <path
-          data-name="Rectangle 76"
-          fill="#e6e6e6"
-          d="M675.712 377.851h17.177v17.177h-17.177z"
-        />
-        <path
-          data-name="Rectangle 77"
-          fill="#91f291"
-          d="M217.543 377.851h17.177v17.177h-17.177z"
-        />
-        <path
-          data-name="Rectangle 78"
-          fill="#e6e6e6"
-          d="M217.046 427.053h57.258v57.258h-57.258z"
-        />
-        <path
-          data-name="Rectangle 80"
-          fill="#91f291"
-          d="M120.063 278.086h703.576v29.89H120.063z"
-        />
-        <circle
-          data-name="Ellipse 90"
-          cx={142.275}
-          cy={299.662}
-          r={5.54}
-          fill="#fff"
-        />
-        <circle
-          data-name="Ellipse 91"
-          cx={163.303}
-          cy={299.662}
-          r={5.54}
-          fill="#fff"
-        />
-        <circle
-          data-name="Ellipse 92"
-          cx={184.332}
-          cy={299.662}
-          r={5.54}
-          fill="#fff"
-        />
+        <path data-name="Rectangle 75" fill="#fff" d="M140.482 326.004h663.339v278.549H140.482z" />
+        <path data-name="Rectangle 76" fill="#e6e6e6" d="M675.712 377.851h17.177v17.177h-17.177z" />
+        <path data-name="Rectangle 77" fill="#91f291" d="M217.543 377.851h17.177v17.177h-17.177z" />
+        <path data-name="Rectangle 78" fill="#e6e6e6" d="M217.046 427.053h57.258v57.258h-57.258z" />
+        <path data-name="Rectangle 80" fill="#91f291" d="M120.063 278.086h703.576v29.89H120.063z" />
+        <circle data-name="Ellipse 90" cx={142.275} cy={299.662} r={5.54} fill="#fff" />
+        <circle data-name="Ellipse 91" cx={163.303} cy={299.662} r={5.54} fill="#fff" />
+        <circle data-name="Ellipse 92" cx={184.332} cy={299.662} r={5.54} fill="#fff" />
         <path data-name="Rectangle 60" fill="#e6e6e6" d="M0 631.235h931v2H0z" />
-        <path
-          data-name="Rectangle 81"
-          fill="#e6e6e6"
-          d="M333.688 432.78h140.281v8.053H333.688z"
-        />
-        <path
-          data-name="Rectangle 82"
-          fill="#91f291"
-          d="M333.688 462.154h216.625v8.053H333.688z"
-        />
-        <path
-          data-name="Rectangle 83"
-          fill="#e6e6e6"
-          d="M333.688 489.827h176.544v8.053H333.688z"
-        />
-        <path
-          data-name="Rectangle 84"
-          fill="#e6e6e6"
-          d="M333.688 517.398h103.064v8.053H333.688z"
-        />
-        <path
-          data-name="Rectangle 85"
-          fill="#e6e6e6"
-          d="M333.688 544.967h155.55v8.053h-155.55z"
-        />
-        <path
-          data-name="Rectangle 88"
-          fill="#e6e6e6"
-          d="M705.296 377.851h17.177v17.177h-17.177z"
-        />
-        <path
-          data-name="Rectangle 90"
-          fill="#e6e6e6"
-          d="M734.879 377.851h17.177v17.177h-17.177z"
-        />
+        <path data-name="Rectangle 81" fill="#e6e6e6" d="M333.688 432.78h140.281v8.053H333.688z" />
+        <path data-name="Rectangle 82" fill="#91f291" d="M333.688 462.154h216.625v8.053H333.688z" />
+        <path data-name="Rectangle 83" fill="#e6e6e6" d="M333.688 489.827h176.544v8.053H333.688z" />
+        <path data-name="Rectangle 84" fill="#e6e6e6" d="M333.688 517.398h103.064v8.053H333.688z" />
+        <path data-name="Rectangle 85" fill="#e6e6e6" d="M333.688 544.967h155.55v8.053h-155.55z" />
+        <path data-name="Rectangle 88" fill="#e6e6e6" d="M705.296 377.851h17.177v17.177h-17.177z" />
+        <path data-name="Rectangle 90" fill="#e6e6e6" d="M734.879 377.851h17.177v17.177h-17.177z" />
         <circle
           data-name="Ellipse 88"
           cx={717.171}
@@ -107,21 +40,11 @@ function SvgOnlineResume(props) {
           fill="#91f291"
           opacity={0.997}
           style={{
-            isolation: "isolate"
+            isolation: 'isolate'
           }}
         />
-        <circle
-          data-name="Ellipse 97"
-          cx={188.489}
-          cy={55.184}
-          r={39.273}
-          fill="#2f2e41"
-        />
-        <path
-          data-name="Path 630"
-          d="M90.753 391.21h-17.2l-8.181-66.327h25.379z"
-          fill="#feb8b8"
-        />
+        <circle data-name="Ellipse 97" cx={188.489} cy={55.184} r={39.273} fill="#2f2e41" />
+        <path data-name="Path 630" d="M90.753 391.21h-17.2l-8.181-66.327h25.379z" fill="#feb8b8" />
         <path
           data-name="Path 631"
           d="M61.275 386.295h33.163v20.881H40.394a20.881 20.881 0 0120.881-20.881z"
@@ -162,13 +85,7 @@ function SvgOnlineResume(props) {
           d="M145.803 179.27a6.314 6.314 0 01-2.506-.523l-18.021-7.8a6.319 6.319 0 01-3.285-8.3l13.93-32.179a16.13 16.13 0 1129.697 12.602l-.092.212-13.93 32.18a6.328 6.328 0 01-5.793 3.808z"
           fill="#ccc"
         />
-        <circle
-          data-name="Ellipse 98"
-          cx={187.054}
-          cy={64.377}
-          r={34.45}
-          fill="#feb8b8"
-        />
+        <circle data-name="Ellipse 98" cx={187.054} cy={64.377} r={34.45} fill="#feb8b8" />
         <path
           data-name="Path 639"
           d="M151.984 47.448a124.255 124.255 0 0053.757 17.713l-5.667-6.789a41.638 41.638 0 0012.863 2.554 14.087 14.087 0 0011.483-5.375 13.1 13.1 0 00.877-12.1 24.816 24.816 0 00-7.807-9.763 46.482 46.482 0 00-43.263-7.732 27.779 27.779 0 00-12.922 8.289c-3.266 4.029-9.553 7.619-7.881 12.528z"
@@ -203,13 +120,7 @@ function SvgOnlineResume(props) {
           d="M22.905 231.96v-68.729a9.128 9.128 0 019.117-9.117h124.833a9.127 9.127 0 019.117 9.117v68.73a9.127 9.127 0 01-9.117 9.116H32.022a9.128 9.128 0 01-9.117-9.117z"
           fill="#3f3d56"
         />
-        <circle
-          data-name="Ellipse 99"
-          cx={95.94}
-          cy={197.599}
-          r={8.416}
-          fill="#fff"
-        />
+        <circle data-name="Ellipse 99" cx={95.94} cy={197.599} r={8.416} fill="#fff" />
       </g>
     </svg>
   );

@@ -1,16 +1,15 @@
-import React from "react";
-import { imageSizer } from "../lib";
+import React from 'react';
+import { imageSizer } from '../lib';
 
 function SvgResume(props) {
   return (
     <svg
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
-      width={imageSizer().width}
-      height={imageSizer().height}
+      width="50vw"
+      height="40vh"
       viewBox="0 0 753.875 703.828"
-      {...props}
-    >
+      {...props}>
       <path
         d="M355.412 5.872l-23.068 12.586-284.208 155.07-23.069 12.587a48.18 48.18 0 00-19.195 65.296l211.643 387.894a48.18 48.18 0 0065.296 19.195l.06-.032L613.096 478.29l.06-.033a48.18 48.18 0 0019.196-65.296L420.708 25.068a48.18 48.18 0 00-65.296-19.196z"
         fill="#f2f2f2"
