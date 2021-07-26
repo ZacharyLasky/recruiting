@@ -125,6 +125,10 @@ export const Email = styled('div')`
   margin: 0 5px 10px 5px;
   font-size: 2vw;
 
+  @media (max-width: ${styles.m}) {
+    font-size: 4vw;
+  }
+
   @media (min-width: ${styles.l}) {
     margin: 0 10px 10px 10px;
   }

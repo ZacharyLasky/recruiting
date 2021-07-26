@@ -16,5 +16,10 @@ export const Container = styled('div')`
 export const text = styled('h1')`
   max-width: 45vw;
   color: white;
-  font-size: 2.5vw;
+  font-size: 2vw;
+
+  @media (max-width: ${styles.m}) {
+    font-size: 4vw;
+    max-width: 100vw;
+  }
 `;
