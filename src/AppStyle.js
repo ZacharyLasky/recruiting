@@ -123,7 +123,7 @@ export const Email = styled('div')`
   align-self: center;
   color: white;
   margin: 0 5px 10px 5px;
-  font-size: 1.5vw;
+  font-size: 2vw;
 
   @media (min-width: ${styles.l}) {
     margin: 0 10px 10px 10px;
