@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from "react";
-import * as assets from "../../assets";
-import * as styles from "../../styles";
-import * as homePageStyle from "./HomePageStyle";
+import React, { useEffect, useRef } from 'react';
+import * as assets from '../../assets';
+import * as styles from '../../styles';
+import * as homePageStyle from './HomePageStyle';
 
 export default function HomePage() {
   const containerRef = useRef();
@@ -9,7 +9,7 @@ export default function HomePage() {
   useEffect(() => {
     if (window.innerWidth > 800) {
       setTimeout(() => {
-        containerRef.current.scrollIntoView({ behavior: "smooth" });
+        containerRef.current.scrollIntoView({ behavior: 'smooth' });
       }, 6000);
     }
   }, []);
@@ -17,12 +17,8 @@ export default function HomePage() {
   return (
     <homePageStyle.Container className="home-page-container" ref={containerRef}>
       <homePageStyle.HeadingWrapper className="home-page-heading-wrapper">
-        <homePageStyle.Heading className="home-page-heading">
-          Not
-        </homePageStyle.Heading>
-        <homePageStyle.HeadingTwo className="home-page-heading-two">
-          just
-        </homePageStyle.HeadingTwo>
+        <homePageStyle.Heading className="home-page-heading">Not&nbsp;</homePageStyle.Heading>
+        <homePageStyle.HeadingTwo className="home-page-heading-two">just&nbsp;</homePageStyle.HeadingTwo>
         <homePageStyle.HeadingThree className="home-page-heading-three">
           recruiters.
         </homePageStyle.HeadingThree>

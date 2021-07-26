@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import * as styles from "./styles";
+import styled from 'styled-components';
+import * as styles from './styles';
 
-export const Container = styled("div")`
+export const Container = styled('div')`
   background: rgb(8, 19, 19);
   background: linear-gradient(
     90deg,
@@ -19,7 +19,7 @@ export const Container = styled("div")`
   bottom: 0;
 `;
 
-export const ComponentWrapper = styled("div")`
+export const ComponentWrapper = styled('div')`
   height: 100%;
   margin: 20px 0;
   display: flex;
@@ -28,7 +28,7 @@ export const ComponentWrapper = styled("div")`
   flex-direction: column;
 `;
 
-export const ChevronWrapper = styled("div")`
+export const ChevronWrapper = styled('div')`
   display: flex;
   justify-content: center;
   justify-self: flex-end;
@@ -54,7 +54,7 @@ export const ChevronWrapper = styled("div")`
   }
 `;
 
-export const LogoWrapper = styled("div")`
+export const LogoWrapper = styled('div')`
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -65,7 +65,7 @@ export const LogoWrapper = styled("div")`
   }
 `;
 
-export const LogoSection = styled("div")`
+export const LogoSection = styled('div')`
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   display: flex;
   justify-content: space-between;
@@ -85,7 +85,7 @@ export const LogoSection = styled("div")`
   }
 `;
 
-export const LogoDivider = styled("div")`
+export const LogoDivider = styled('div')`
   border-left: 5px solid white;
   border-right: 5px solid white;
   width: 80px;
@@ -102,7 +102,7 @@ export const LogoDivider = styled("div")`
   }
 `;
 
-export const Logo = styled("div")`
+export const Logo = styled('div')`
   font-size: 12px;
 
   @media (min-width: ${styles.s}) {
@@ -118,7 +118,7 @@ export const LogoSymbol = styled(Logo)`
   }
 `;
 
-export const Email = styled("div")`
+export const Email = styled('div')`
   display: flex;
   align-self: center;
   color: white;

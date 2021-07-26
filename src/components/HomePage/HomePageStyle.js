@@ -1,13 +1,13 @@
-import styled from "styled-components";
-import * as styles from "../../styles";
+import styled from 'styled-components';
+import * as styles from '../../styles';
 
-export const Container = styled("div")`
+export const Container = styled('div')`
   display: flex;
   align-items: center;
   flex-direction: column;
 `;
 
-export const HeadingWrapper = styled("div")`
+export const HeadingWrapper = styled('div')`
   display: flex;
   flex-direction: row;
 
@@ -21,7 +21,7 @@ export const HeadingWrapper = styled("div")`
   }
 `;
 
-export const Heading = styled("h1")`
+export const Heading = styled('h1')`
   color: white;
   font-size: 7vw;
   font-weight: normal;
@@ -33,7 +33,6 @@ export const Heading = styled("h1")`
 `;
 
 export const HeadingTwo = styled(Heading)`
-  padding-left: 1vw;
   animation-delay: 1s;
 `;
 
@@ -41,7 +40,7 @@ export const HeadingThree = styled(HeadingTwo)`
   animation-delay: 2s;
 `;
 
-export const Subheading = styled("h2")`
+export const Subheading = styled('h2')`
   color: ${styles.blue};
   font-size: 10vw;
   margin: 0 auto;
@@ -62,6 +61,6 @@ export const Subheading = styled("h2")`
   }
 `;
 
-export const LogoWrapper = styled("div")`
+export const LogoWrapper = styled('div')`
   margin-top: 50px;
 `;
