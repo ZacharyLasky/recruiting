@@ -29,7 +29,7 @@ export const ComponentWrapper = styled('div')`
 `;
 
 export const MiddleComponentWrapper = styled(ComponentWrapper)`
-  background: gray;
+  background: ${styles.blue};
 `;
 
 export const ChevronWrapper = styled('div')`
