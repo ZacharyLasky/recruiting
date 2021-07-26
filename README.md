@@ -1,6 +1,6 @@
 # Last Key Recruiting - landing page
 
-### clone the app:
+### Clone the app:
 git clone https://github.com/ZacharyLasky/recruiting.git
 
 ### Run the app:
