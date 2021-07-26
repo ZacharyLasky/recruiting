@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/ZacharyLasky/recruiting/static/js/main.00653ecf.chunk.js",
+    "main.js.map": "/ZacharyLasky/recruiting/static/js/main.00653ecf.chunk.js.map",
+    "runtime-main.js": "/ZacharyLasky/recruiting/static/js/runtime-main.f1704033.js",
+    "runtime-main.js.map": "/ZacharyLasky/recruiting/static/js/runtime-main.f1704033.js.map",
+    "static/js/2.67e7f250.chunk.js": "/ZacharyLasky/recruiting/static/js/2.67e7f250.chunk.js",
+    "static/js/2.67e7f250.chunk.js.map": "/ZacharyLasky/recruiting/static/js/2.67e7f250.chunk.js.map",
+    "index.html": "/ZacharyLasky/recruiting/index.html",
+    "static/js/2.67e7f250.chunk.js.LICENSE.txt": "/ZacharyLasky/recruiting/static/js/2.67e7f250.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1704033.js",
+    "static/js/2.67e7f250.chunk.js",
+    "static/js/main.00653ecf.chunk.js"
+  ]
+}
