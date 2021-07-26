@@ -1,5 +1,8 @@
 # Last Key Recruiting - landing page
 
-### Running application
+### clone the app:
+git clone https://github.com/ZacharyLasky/portfolio.git
+
+### Run the app:
 - npm i
 - npm start
