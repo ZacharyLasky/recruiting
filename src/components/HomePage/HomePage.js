@@ -7,18 +7,18 @@ export default function HomePage() {
   const containerRef = useRef();
 
   useEffect(() => {
-    if (window.innerWidth > 800) {
-      setTimeout(() => {
-        containerRef.current.scrollIntoView({ behavior: 'smooth' });
-      }, 6000);
-    }
+    setTimeout(() => {
+      containerRef.current.scrollIntoView({ behavior: 'smooth' });
+    }, 6000);
   }, []);
 
   return (
     <homePageStyle.Container className="home-page-container" ref={containerRef}>
       <homePageStyle.HeadingWrapper className="home-page-heading-wrapper">
         <homePageStyle.Heading className="home-page-heading">Not&nbsp;</homePageStyle.Heading>
-        <homePageStyle.HeadingTwo className="home-page-heading-two">just&nbsp;</homePageStyle.HeadingTwo>
+        <homePageStyle.HeadingTwo className="home-page-heading-two">
+          just&nbsp;
+        </homePageStyle.HeadingTwo>
         <homePageStyle.HeadingThree className="home-page-heading-three">
           recruiters.
         </homePageStyle.HeadingThree>
