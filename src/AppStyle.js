@@ -28,6 +28,10 @@ export const ComponentWrapper = styled('div')`
   flex-direction: column;
 `;
 
+export const MiddleComponentWrapper = styled(ComponentWrapper)`
+  background: gray;
+`;
+
 export const ChevronWrapper = styled('div')`
   display: flex;
   justify-content: center;

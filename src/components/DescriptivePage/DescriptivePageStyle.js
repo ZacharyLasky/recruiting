@@ -13,6 +13,12 @@ export const Container = styled('div')`
   }
 `;
 
+export const ImageWrapper = styled('div')`
+  @media (min-width: ${styles.m}) {
+    padding-bottom: 300px;
+  }
+`;
+
 export const text = styled('h1')`
   max-width: 45vw;
   color: white;
