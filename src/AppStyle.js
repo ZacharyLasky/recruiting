@@ -11,7 +11,7 @@ export const Container = styled('div')`
   );
   height: 100vh;
   font-family: sans-serif;
-  overflow: scroll;
+  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -35,6 +35,7 @@ export const SectionFooter = styled('div')`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  height: 100%;
 `;
 
 export const LogoWrapper = styled('div')`
