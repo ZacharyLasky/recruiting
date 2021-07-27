@@ -19,13 +19,13 @@ export const ImageWrapper = styled('div')`
   }
 `;
 
-export const text = styled('h1')`
+export const Text = styled('span')`
   max-width: 45vw;
-  color: white;
-  font-size: 2vw;
+  color: ${(props) => props.textSectionColor || 'white'};
+  font-size: 1.8vw;
 
   @media (max-width: ${styles.m}) {
-    font-size: 4vw;
+    font-size: 3.8vw;
     max-width: 100vw;
   }
 `;
