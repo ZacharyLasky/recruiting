@@ -24,7 +24,7 @@ export default function HomePage() {
         </homePageStyle.HeadingThree>
       </homePageStyle.HeadingWrapper>
       <homePageStyle.Subheading className="home-page-subheading">
-        Actual engineers
+        Software engineers
       </homePageStyle.Subheading>
       <homePageStyle.LogoWrapper className="home-page-logo-wrapper">
         {assets.interview}
