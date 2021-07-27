@@ -24,10 +24,7 @@ export const ComponentWrapper = styled('div')`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  @media (min-width: ${styles.m}) {
-    height: 100%;
-  }
+  height: 100%;
 `;
 
 export const MiddleComponentWrapper = styled(ComponentWrapper)`
