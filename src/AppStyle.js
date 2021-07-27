@@ -31,7 +31,7 @@ export const ComponentWrapper = styled('div')`
 `;
 
 export const MiddleComponentWrapper = styled(ComponentWrapper)`
-  background: ${styles.blue};
+  background: gray;
 `;
 
 export const SectionFooter = styled('div')`
