@@ -19,11 +19,20 @@ export const ImageWrapper = styled('div')`
   display: flex;
   justify-content: center;
   width: 100%;
+
+  @media (max-width: ${styles.m}) {
+    margin-top: -60px;
+  }
+`;
+
+export const ParagraphWrapper = styled('div')`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const TextWrapper = styled('div')`
   display: flex;
-  justify-items: flex-start;
   flex-direction: column;
   padding: 0 20px;
 

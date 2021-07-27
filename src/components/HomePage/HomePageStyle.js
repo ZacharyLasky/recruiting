@@ -9,7 +9,7 @@ export const Container = styled('div')`
   flex: 1;
 
   @media (max-width: ${styles.m}) {
-    padding-top: 150px;
+    padding-top: 20vh;
   }
 `;
 
