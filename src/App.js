@@ -46,7 +46,8 @@ export default function App() {
           onClick={() => logoRef.current.scrollIntoView({ behavior: 'smooth' })}>
           {assets.chevronUp}
         </appStyle.ChevronWrapper>
-        <appStyle.Email app-email>Email us at contact@lastkeyrecruiting.com</appStyle.Email>
+        <appStyle.Email app-email>Candidates - candidates@lastkeyrecruiting.com</appStyle.Email>
+        <appStyle.Email app-email>Companies - companies@lastkeyrecruiting.com</appStyle.Email>
       </appStyle.ComponentWrapper>
     </appStyle.Container>
   );
