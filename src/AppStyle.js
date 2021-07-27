@@ -36,22 +36,22 @@ export const SectionFooter = styled('div')`
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  height: 100%;
 `;
 
 export const LogoWrapper = styled('div')`
   display: flex;
-  align-self: baseline;
+  align-self: flex-end;
 `;
 
 export const ChevronWrapper = styled('div')`
   display: flex;
   justify-content: space-between;
-  justify-self: flex-end;
+  align-self: flex-end;
   cursor: pointer;
   animation-name: bounce;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  align-self: baseline;
 
   @keyframes bounce {
     0%,
@@ -73,6 +73,7 @@ export const ChevronWrapper = styled('div')`
 export const EmailWrapper = styled('div')`
   display: flex;
   flex-direction: column;
+  align-self: flex-end;
 `;
 
 export const Email = styled('div')`

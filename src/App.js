@@ -20,6 +20,7 @@ export default function App() {
             onClick={() => missionRef.current.scrollIntoView({ behavior: 'smooth' })}>
             {assets.chevronDown}
           </appStyle.ChevronWrapper>
+          <div />
         </appStyle.SectionFooter>
       </appStyle.ComponentWrapper>
       <appStyle.ComponentWrapper className="app-mission-wrapper" ref={missionRef}>
@@ -30,6 +31,7 @@ export default function App() {
             onClick={() => purposeRef.current.scrollIntoView({ behavior: 'smooth' })}>
             {assets.chevronDown}
           </appStyle.ChevronWrapper>
+          <div />
         </appStyle.SectionFooter>
       </appStyle.ComponentWrapper>
       <appStyle.MiddleComponentWrapper className="app-purpose-wrapper" ref={purposeRef}>
@@ -40,6 +42,7 @@ export default function App() {
             onClick={() => promiseRef.current.scrollIntoView({ behavior: 'smooth' })}>
             {assets.chevronDown}
           </appStyle.ChevronWrapper>
+          <div />
         </appStyle.SectionFooter>
       </appStyle.MiddleComponentWrapper>
       <appStyle.ComponentWrapper className="app-promise-wrapper" ref={promiseRef}>
