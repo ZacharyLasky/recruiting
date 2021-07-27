@@ -5,6 +5,12 @@ export const Container = styled('div')`
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 100%;
+  flex: 1;
+
+  @media (max-width: ${styles.m}) {
+    padding-top: 150px;
+  }
 `;
 
 export const HeadingWrapper = styled('div')`

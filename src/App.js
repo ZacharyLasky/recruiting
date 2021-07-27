@@ -51,10 +51,10 @@ export default function App() {
           <appStyle.LogoWrapper>{assets.logo}</appStyle.LogoWrapper>
           <appStyle.EmailWrapper>
             <appStyle.Email className="app-email-candidates">
-              Candidates - candidates@lastkeyrecruiting.com
+              candidates@lastkeyrecruiting.com
             </appStyle.Email>
             <appStyle.Email className="app-email-companies">
-              Companies - companies@lastkeyrecruiting.com
+              companies@lastkeyrecruiting.com
             </appStyle.Email>
           </appStyle.EmailWrapper>
           <appStyle.ChevronWrapper

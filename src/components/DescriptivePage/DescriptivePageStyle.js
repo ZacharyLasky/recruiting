@@ -5,22 +5,34 @@ export const Container = styled('div')`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 40px;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 
   @media (min-width: ${styles.m}) {
-    flex-direction: ${(props) => (props.rowReverse ? 'row-reverse' : 'row')};
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
   }
 `;
 
 export const ImageWrapper = styled('div')`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+`;
+
+export const TextWrapper = styled('div')`
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: column;
+  padding: 0 20px;
+
   @media (min-width: ${styles.m}) {
-    padding-bottom: 300px;
+    padding-left: 50px;
   }
 `;
 
-export const Text = styled('span')`
-  max-width: 45vw;
+export const TextSpan = styled('span')`
   color: ${(props) => props.textSectionColor || 'white'};
   font-size: 1.8vw;
 

@@ -20,11 +20,14 @@ export const Container = styled('div')`
 `;
 
 export const ComponentWrapper = styled('div')`
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  @media (min-width: ${styles.m}) {
+    height: 100%;
+  }
 `;
 
 export const MiddleComponentWrapper = styled(ComponentWrapper)`
@@ -34,9 +37,7 @@ export const MiddleComponentWrapper = styled(ComponentWrapper)`
 export const SectionFooter = styled('div')`
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
-  height: 100%;
 `;
 
 export const LogoWrapper = styled('div')`
@@ -81,10 +82,10 @@ export const Email = styled('div')`
   align-self: center;
   color: white;
   margin: 0 5px 10px 5px;
-  font-size: 1.8vw;
+  font-size: 1.6vw;
 
   @media (max-width: ${styles.m}) {
-    font-size: 3.8vw;
+    font-size: 3.6vw;
   }
 
   @media (min-width: ${styles.l}) {

@@ -4,8 +4,8 @@ function SvgLogo2(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="10em"
-      height="10em"
+      width="15vw"
+      height="15vh"
       viewBox="0 0 1200 1200"
       {...props}>
       <image
