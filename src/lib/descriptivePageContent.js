@@ -26,7 +26,7 @@ export const purposeContent = {
     third:
       'We think that we improve that process dramatically, saving people and companies time and money.'
   },
-  textSectionColor: 'white',
+  textSectionColor: styles.yellow,
   image: assets.updatedResume,
   rowReverse: true
 };

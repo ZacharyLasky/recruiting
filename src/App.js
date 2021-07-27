@@ -35,7 +35,7 @@ export default function App() {
       <appStyle.MiddleComponentWrapper className="app-purpose-wrapper" ref={purposeRef}>
         <DescriptivePage content={lib.purposeContent} />
         <appStyle.SectionFooter>
-          <appStyle.LogoWrapper>{assets.logo}</appStyle.LogoWrapper>
+          <appStyle.LogoWrapper>{assets.logo2}</appStyle.LogoWrapper>
           <appStyle.ChevronWrapper
             onClick={() => promiseRef.current.scrollIntoView({ behavior: 'smooth' })}>
             {assets.chevronDown}

@@ -8,17 +8,15 @@ export default function DescriptivePage({ content }) {
       rowReverse={content.rowReverse}>
       <div className="descriptive-page-text-wrapper">
         <div className="descriptive-page-paragraph-one-wrapper">
-          <descriptivePageStyle.Text
-            className="descriptive-page-text-one"
-            textSectionColor={content.rowReverse && 'black'}>
+          <descriptivePageStyle.Text className="descriptive-page-text-one">
             {content.text.first}
           </descriptivePageStyle.Text>
         </div>
         <br />
+        <br />
+        <br />
         <div className="descriptive-page-paragraph-two-wrapper">
-          <descriptivePageStyle.Text
-            className="descriptive-page-text-two"
-            textSectionColor={content.rowReverse && 'black'}>
+          <descriptivePageStyle.Text className="descriptive-page-text-two">
             {content.text.second}
           </descriptivePageStyle.Text>
           <descriptivePageStyle.Text
@@ -28,13 +26,15 @@ export default function DescriptivePage({ content }) {
           </descriptivePageStyle.Text>
         </div>
         <br />
+        <br />
+        <br />
         <div className="descriptive-page-paragraph-three-wrapper">
-          <descriptivePageStyle.Text
-            className="descriptive-page-text-three"
-            textSectionColor={content.rowReverse && 'black'}>
+          <descriptivePageStyle.Text className="descriptive-page-text-three">
             {content.text.third}
           </descriptivePageStyle.Text>
         </div>
+        <br />
+        <br />
         <br />
       </div>
       <descriptivePageStyle.ImageWrapper>{content.image}</descriptivePageStyle.ImageWrapper>
