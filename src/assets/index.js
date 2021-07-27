@@ -4,5 +4,6 @@ import { updatedResume } from './updatedResume';
 import { onlineResume } from './onlineResume';
 import { chevronDown } from './chevronDown';
 import { chevronUp } from './chevronUp';
+import { logo } from './logo';
 
-export { interview, resume, updatedResume, onlineResume, chevronDown, chevronUp };
+export { interview, resume, updatedResume, onlineResume, chevronDown, chevronUp, logo };

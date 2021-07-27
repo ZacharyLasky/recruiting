@@ -22,7 +22,7 @@ export const Container = styled('div')`
 export const ComponentWrapper = styled('div')`
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 `;
@@ -31,14 +31,27 @@ export const MiddleComponentWrapper = styled(ComponentWrapper)`
   background: ${styles.blue};
 `;
 
+export const SectionFooter = styled('div')`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+`;
+
+export const LogoWrapper = styled('div')`
+  display: flex;
+  align-self: baseline;
+`;
+
 export const ChevronWrapper = styled('div')`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   justify-self: flex-end;
   cursor: pointer;
   animation-name: bounce;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  align-self: baseline;
 
   @keyframes bounce {
     0%,
@@ -55,6 +68,11 @@ export const ChevronWrapper = styled('div')`
       transform: translateY(-15px);
     }
   }
+`;
+
+export const EmailWrapper = styled('div')`
+  display: flex;
+  flex-direction: column;
 `;
 
 export const Email = styled('div')`

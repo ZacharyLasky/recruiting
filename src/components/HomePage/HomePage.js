@@ -1,6 +1,5 @@
 import React from 'react';
 import * as assets from '../../assets';
-import * as styles from '../../styles';
 import * as homePageStyle from './HomePageStyle';
 
 export default function HomePage() {
