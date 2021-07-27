@@ -9,7 +9,7 @@ export const Container = styled('div')`
   flex: 1;
 
   @media (max-width: ${styles.m}) {
-    margin-top: 18vh;
+    margin-top: 10vh;
   }
 `;
 
