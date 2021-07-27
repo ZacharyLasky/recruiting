@@ -5,21 +5,14 @@ import * as assets from './assets';
 import { HomePage, DescriptivePage } from './components';
 
 export default function App() {
-  const logoRef = useRef();
+  const topRef = useRef();
   const missionRef = useRef();
   const purposeRef = useRef();
   const promiseRef = useRef();
 
   return (
     <appStyle.Container className="app-container">
-      <appStyle.LogoWrapper className="app-logo-wrapper" ref={logoRef}>
-        <appStyle.LogoDivider className="app-logo-divider" />
-        <appStyle.LogoSection className="app-logo-section">
-          <appStyle.Logo className="app-logo">Last Key Recruiting</appStyle.Logo>
-          <appStyle.LogoSymbol className="app-logo-symbol">•</appStyle.LogoSymbol>
-        </appStyle.LogoSection>
-      </appStyle.LogoWrapper>
-      <appStyle.ComponentWrapper className="app-homepage-wrapper">
+      <appStyle.ComponentWrapper className="app-homepage-wrapper" ref={topRef}>
         <HomePage />
         <appStyle.ChevronWrapper
           onClick={() => missionRef.current.scrollIntoView({ behavior: 'smooth' })}>
@@ -43,10 +36,15 @@ export default function App() {
       <appStyle.ComponentWrapper className="app-promise-wrapper" ref={promiseRef}>
         <DescriptivePage content={lib.promiseContent} />
         <appStyle.ChevronWrapper
-          onClick={() => logoRef.current.scrollIntoView({ behavior: 'smooth' })}>
+          onClick={() => topRef.current.scrollIntoView({ behavior: 'smooth' })}>
           {assets.chevronUp}
         </appStyle.ChevronWrapper>
-        <appStyle.Email app-email>Email us at contact@lastkeyrecruiting.com</appStyle.Email>
+        <appStyle.Email className="app-email-candidates">
+          Candidates - candidates@lastkeyrecruiting.com
+        </appStyle.Email>
+        <appStyle.Email className="app-email-companies">
+          Companies - companies@lastkeyrecruiting.com
+        </appStyle.Email>
       </appStyle.ComponentWrapper>
     </appStyle.Container>
   );

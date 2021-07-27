@@ -21,7 +21,6 @@ export const Container = styled('div')`
 
 export const ComponentWrapper = styled('div')`
   height: 100%;
-  margin: 20px 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -58,79 +57,15 @@ export const ChevronWrapper = styled('div')`
   }
 `;
 
-export const LogoWrapper = styled('div')`
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-
-  @media (max-width: ${styles.m}) {
-    align-items: center;
-  }
-`;
-
-export const LogoSection = styled('div')`
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  color: white;
-  border: 5px solid white;
-  border: ${(props) => `5px solid ${props.routeColor}`};
-  border-radius: 10%;
-  width: 80px;
-  height: 40px;
-  cursor: default;
-
-  @media (min-width: ${styles.s}) {
-    width: 150px;
-    height: 75px;
-  }
-`;
-
-export const LogoDivider = styled('div')`
-  border-left: 5px solid white;
-  border-right: 5px solid white;
-  width: 80px;
-  height: 12px;
-  margin-left: 20px;
-
-  @media (max-width: ${styles.m}) {
-    margin-left: 0px;
-  }
-
-  @media (min-width: ${styles.s}) {
-    width: 150px;
-    height: 23px;
-  }
-`;
-
-export const Logo = styled('div')`
-  font-size: 12px;
-
-  @media (min-width: ${styles.s}) {
-    font-size: 20px;
-  }
-`;
-
-export const LogoSymbol = styled(Logo)`
-  font-size: 40px;
-
-  @media (min-width: ${styles.s}) {
-    font-size: 64px;
-  }
-`;
-
 export const Email = styled('div')`
   display: flex;
   align-self: center;
   color: white;
   margin: 0 5px 10px 5px;
-  font-size: 2vw;
+  font-size: 1.8vw;
 
   @media (max-width: ${styles.m}) {
-    font-size: 4vw;
+    font-size: 3.8vw;
   }
 
   @media (min-width: ${styles.l}) {
