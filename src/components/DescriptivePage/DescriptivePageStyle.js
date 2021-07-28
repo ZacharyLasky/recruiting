@@ -5,12 +5,11 @@ export const Container = styled('div')`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
   height: 100%;
 
-  @media (min-width: ${styles.xl}) {
-    flex-direction: row;
+  @media (min-width: ${styles.m}) {
+    flex-direction: ${(props) => (props.rowReverse ? 'row-reverse' : 'row')};
     justify-content: space-between;
   }
 `;
@@ -19,28 +18,17 @@ export const ImageWrapper = styled('div')`
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 0 20px;
-
-  @media (min-width: 700px) {
-    margin: 60px;
-  }
-
-  @media (min-width: 1000px) {
-    margin: 60px;
-  }
+  margin: -30px 20px 0 20px;
 `;
 
 export const ParagraphWrapper = styled('div')`
   display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 
 export const TextWrapper = styled('div')`
   display: flex;
   flex-direction: column;
   padding: 0 20px;
-  margin: 10vh 0 -10vh 0;
 
   @media (min-width: ${styles.m}) {
     padding-left: 50px;
@@ -49,6 +37,7 @@ export const TextWrapper = styled('div')`
 `;
 
 export const TextSpan = styled('span')`
+  font-weight: bold;
   color: ${(props) => props.textSectionColor || 'white'};
   font-size: 1.8vw;
 

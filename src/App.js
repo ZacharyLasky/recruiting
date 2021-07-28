@@ -14,39 +14,19 @@ export default function App() {
     <appStyle.Container className="app-container">
       <appStyle.ComponentWrapper className="app-homepage-wrapper" ref={topRef}>
         <HomePage />
-        <appStyle.SectionFooter>
-          <appStyle.LogoWrapper>{assets.logo}</appStyle.LogoWrapper>
-          <appStyle.ChevronWrapper
-            onClick={() => missionRef.current.scrollIntoView({ behavior: 'smooth' })}>
-            {assets.chevronDown}
-          </appStyle.ChevronWrapper>
-          <div />
-        </appStyle.SectionFooter>
       </appStyle.ComponentWrapper>
       <appStyle.ComponentWrapper className="app-mission-wrapper" ref={missionRef}>
         <DescriptivePage content={lib.missionContent} />
-        <appStyle.SectionFooter>
-          <appStyle.LogoWrapper>{assets.logo}</appStyle.LogoWrapper>
-          <appStyle.ChevronWrapper
-            onClick={() => purposeRef.current.scrollIntoView({ behavior: 'smooth' })}>
-            {assets.chevronDown}
-          </appStyle.ChevronWrapper>
-          <div />
-        </appStyle.SectionFooter>
       </appStyle.ComponentWrapper>
-      <appStyle.MiddleComponentWrapper className="app-purpose-wrapper" ref={purposeRef}>
+      <appStyle.ComponentWrapper className="app-purpose-wrapper" ref={purposeRef}>
         <DescriptivePage content={lib.purposeContent} />
-        <appStyle.SectionFooter>
-          <appStyle.LogoWrapper>{assets.logo2}</appStyle.LogoWrapper>
-          <appStyle.ChevronWrapper
-            onClick={() => promiseRef.current.scrollIntoView({ behavior: 'smooth' })}>
-            {assets.chevronDown}
-          </appStyle.ChevronWrapper>
-          <div />
-        </appStyle.SectionFooter>
-      </appStyle.MiddleComponentWrapper>
+      </appStyle.ComponentWrapper>
       <appStyle.ComponentWrapper className="app-promise-wrapper" ref={promiseRef}>
         <DescriptivePage content={lib.promiseContent} />
+        <appStyle.ChevronWrapper
+          onClick={() => missionRef.current.scrollIntoView({ behavior: 'smooth' })}>
+          {assets.chevronDown}
+        </appStyle.ChevronWrapper>
         <appStyle.SectionFooter>
           <appStyle.LogoWrapper>{assets.logo}</appStyle.LogoWrapper>
           <appStyle.EmailWrapper>
@@ -57,10 +37,6 @@ export default function App() {
               companies@lastkeyrecruiting.com
             </appStyle.Email>
           </appStyle.EmailWrapper>
-          <appStyle.ChevronWrapper
-            onClick={() => topRef.current.scrollIntoView({ behavior: 'smooth' })}>
-            {assets.chevronUp}
-          </appStyle.ChevronWrapper>
         </appStyle.SectionFooter>
       </appStyle.ComponentWrapper>
     </appStyle.Container>

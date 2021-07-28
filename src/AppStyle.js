@@ -27,26 +27,40 @@ export const ComponentWrapper = styled('div')`
   height: 100%;
 `;
 
-export const MiddleComponentWrapper = styled(ComponentWrapper)`
-  background: gray;
-`;
-
 export const SectionFooter = styled('div')`
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-top: 5px solid black;
+  background: rgb(8, 19, 19);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 19, 19, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(8, 19, 19, 1) 100%
+  );
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  height: 100%;
+  height: 15vh;
 `;
 
 export const LogoWrapper = styled('div')`
   display: flex;
-  align-self: flex-end;
 `;
 
 export const ChevronWrapper = styled('div')`
   display: flex;
-  justify-content: space-between;
-  align-self: flex-end;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  height: calc(100% - 15vh);
   cursor: pointer;
   animation-name: bounce;
   animation-duration: 4s;
@@ -72,21 +86,17 @@ export const ChevronWrapper = styled('div')`
 export const EmailWrapper = styled('div')`
   display: flex;
   flex-direction: column;
-  align-self: flex-end;
 `;
 
 export const Email = styled('div')`
   display: flex;
   align-self: center;
-  color: white;
-  margin: 0 5px 10px 5px;
-  font-size: 1.6vw;
+  color: gray;
+  font-size: 1.2vw;
+  padding: 2px 0;
+  margin: 0 4vw;
 
   @media (max-width: ${styles.m}) {
-    font-size: 3.6vw;
-  }
-
-  @media (min-width: ${styles.l}) {
-    margin: 0 10px 10px 10px;
+    font-size: 3.2vw;
   }
 `;

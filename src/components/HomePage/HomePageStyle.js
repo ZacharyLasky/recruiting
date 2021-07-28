@@ -16,26 +16,19 @@ export const Container = styled('div')`
 export const HeadingWrapper = styled('div')`
   display: flex;
   flex-direction: row;
+  padding-top: 10px;
 `;
 
 export const Heading = styled('h1')`
   color: white;
-  font-size: 7vw;
+  font-size: 3vw;
   font-weight: normal;
   margin: 0 auto;
 `;
 
-export const HeadingTwo = styled(Heading)`
-  animation-delay: 1s;
-`;
-
-export const HeadingThree = styled(HeadingTwo)`
-  animation-delay: 2s;
-`;
-
 export const Subheading = styled('h2')`
   color: ${styles.blue};
-  font-size: 10vw;
+  font-size: 6vw;
   margin: 0 auto;
   padding: 30px 0 0 0;
 `;
