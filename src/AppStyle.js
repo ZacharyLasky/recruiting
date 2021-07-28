@@ -25,6 +25,10 @@ export const ComponentWrapper = styled('div')`
   align-items: center;
   flex-direction: column;
   height: 100%;
+
+  @media (max-width: ${styles.l}) and (orientation: landscape) {
+    visibility: hidden;
+  }
 `;
 
 export const SectionFooter = styled('div')`
@@ -61,7 +65,6 @@ export const ChevronWrapper = styled('div')`
   bottom: 0;
   top: 0;
   height: calc(100% - 15vh);
-  cursor: pointer;
   animation-name: bounce;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -81,6 +84,10 @@ export const ChevronWrapper = styled('div')`
       transform: translateY(-15px);
     }
   }
+`;
+
+export const Chevron = styled('div')`
+  cursor: pointer;
 `;
 
 export const EmailWrapper = styled('div')`

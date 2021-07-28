@@ -45,21 +45,23 @@ export default function App() {
       </appStyle.ComponentWrapper>
       <appStyle.ComponentWrapper className="app-promise-wrapper" ref={promiseRef}>
         <DescriptivePage content={lib.promiseContent} />
-        <appStyle.ChevronWrapper onClick={() => setChevronClickCount(chevronClickCount + 1)}>
-          {chevronClickCount === 3 ? assets.chevronUp : assets.chevronDown}
+        <appStyle.ChevronWrapper>
+          <appStyle.Chevron onClick={() => setChevronClickCount(chevronClickCount + 1)}>
+            {chevronClickCount === 3 ? assets.chevronUp : assets.chevronDown}
+          </appStyle.Chevron>
         </appStyle.ChevronWrapper>
-        <appStyle.SectionFooter>
-          <appStyle.LogoWrapper>{assets.logo}</appStyle.LogoWrapper>
-          <appStyle.EmailWrapper>
-            <appStyle.Email className="app-email-candidates">
-              candidates@lastkeyrecruiting.com
-            </appStyle.Email>
-            <appStyle.Email className="app-email-companies">
-              companies@lastkeyrecruiting.com
-            </appStyle.Email>
-          </appStyle.EmailWrapper>
-        </appStyle.SectionFooter>
       </appStyle.ComponentWrapper>
+      <appStyle.SectionFooter>
+        <appStyle.LogoWrapper>{assets.logo}</appStyle.LogoWrapper>
+        <appStyle.EmailWrapper>
+          <appStyle.Email className="app-email-candidates">
+            candidates@lastkeyrecruiting.com
+          </appStyle.Email>
+          <appStyle.Email className="app-email-companies">
+            companies@lastkeyrecruiting.com
+          </appStyle.Email>
+        </appStyle.EmailWrapper>
+      </appStyle.SectionFooter>
     </appStyle.Container>
   );
 }
