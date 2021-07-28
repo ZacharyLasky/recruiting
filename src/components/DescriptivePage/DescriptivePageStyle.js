@@ -21,10 +21,6 @@ export const ImageWrapper = styled('div')`
   margin: -30px 20px 0 20px;
 `;
 
-export const ParagraphWrapper = styled('div')`
-  display: flex;
-`;
-
 export const TextWrapper = styled('div')`
   display: flex;
   flex-direction: column;
@@ -33,7 +29,13 @@ export const TextWrapper = styled('div')`
   @media (min-width: ${styles.m}) {
     padding-left: 50px;
     margin: 0;
+    justify-content: space-evenly;
+    height: 70%;
   }
+`;
+
+export const ParagraphWrapper = styled('div')`
+  display: flex;
 `;
 
 export const TextSpan = styled('span')`
