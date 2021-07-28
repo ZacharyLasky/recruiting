@@ -16,6 +16,11 @@ export default function DescriptivePage({ content }) {
         </descriptivePageStyle.ParagraphWrapper>
         <descriptivePageStyle.ParagraphWrapper className="descriptive-page-paragraph-two-wrapper">
           <p>
+            <descriptivePageStyle.TextSpan
+              className="descriptive-page-text-two"
+              textSectionColor={content.textSectionColor}>
+              {content.text.highlightedSection}
+            </descriptivePageStyle.TextSpan>
             <descriptivePageStyle.TextSpan className="descriptive-page-text-two">
               {content.text.second}
             </descriptivePageStyle.TextSpan>
@@ -28,6 +33,11 @@ export default function DescriptivePage({ content }) {
         </descriptivePageStyle.ParagraphWrapper>
         <descriptivePageStyle.ParagraphWrapper className="descriptive-page-paragraph-three-wrapper">
           <p>
+            <descriptivePageStyle.TextSpan
+              className="descriptive-page-text-two"
+              textSectionColor={content.textSectionColor}>
+              {content.text.highlightedSectionTwo}
+            </descriptivePageStyle.TextSpan>
             <descriptivePageStyle.TextSpan className="descriptive-page-text-three">
               {content.text.third}
             </descriptivePageStyle.TextSpan>

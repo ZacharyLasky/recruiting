@@ -4,11 +4,12 @@ import * as assets from '../assets';
 export const missionContent = {
   text: {
     first: "Hi, we're software engineers who want to help other software engineers get hired.",
+    highlightedSection: "Why we're good: ",
     second:
-      "Why we're good: we can properly vet candidates and effectively communicate their strengths to companies, as well as ",
-    highlightedText: 'effectively match candidates with roles that correctly fit their skillset.',
+      'We can properly vet candidates and effectively communicate their strengths to companies, as well as effectively match candidates with roles that correctly fit their skillset.',
+    highlightedSectionTwo: 'Why else: ',
     third:
-      "Why else: We focus on only a few clients at a time and we won't ever leave you hanging if something doesn't happen to go your way. We've got time for you!"
+      "We focus on only a few clients at a time and we won't ever leave you hanging if something doesn't happen to go your way. We've got time for you!"
   },
   textSectionColor: styles.red,
   image: assets.resume,
