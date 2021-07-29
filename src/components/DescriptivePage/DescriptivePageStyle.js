@@ -31,6 +31,7 @@ export const TextWrapper = styled('div')`
     margin: 0;
     justify-content: space-evenly;
     height: 70%;
+    line-height: 1.5;
   }
 `;
 
@@ -41,7 +42,7 @@ export const ParagraphWrapper = styled('div')`
 export const TextSpan = styled('span')`
   font-weight: bold;
   color: ${(props) => props.textSectionColor || 'white'};
-  font-size: 1.8vw;
+  font-size: 1.4vw;
 
   @media (max-width: ${styles.m}) {
     font-size: 2.8vw;

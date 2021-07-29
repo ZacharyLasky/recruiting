@@ -48,6 +48,12 @@ export const SectionFooter = styled('div')`
   bottom: 0;
   width: 100%;
   height: 15vh;
+
+  @media (max-width: ${styles.l}) and (orientation: landscape) {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 `;
 
 export const LogoWrapper = styled('div')`
@@ -88,6 +94,7 @@ export const ChevronWrapper = styled('div')`
 
 export const Chevron = styled('div')`
   cursor: pointer;
+  padding: 2vw;
 `;
 
 export const EmailWrapper = styled('div')`
@@ -95,13 +102,14 @@ export const EmailWrapper = styled('div')`
   flex-direction: column;
 `;
 
-export const Email = styled('div')`
+export const Email = styled('a')`
   display: flex;
   align-self: center;
   color: gray;
   font-size: 1.2vw;
   padding: 2px 0;
   margin: 0 4vw;
+  text-decoration: none;
 
   @media (max-width: ${styles.m}) {
     font-size: 3.2vw;

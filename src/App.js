@@ -54,10 +54,16 @@ export default function App() {
       <appStyle.SectionFooter>
         <appStyle.LogoWrapper>{assets.logo}</appStyle.LogoWrapper>
         <appStyle.EmailWrapper>
-          <appStyle.Email className="app-email-candidates">
+          <appStyle.Email
+            className="app-email-candidates"
+            href="mailto:candidates@lastkeyrecruiting.com"
+            target="_blank">
             candidates@lastkeyrecruiting.com
           </appStyle.Email>
-          <appStyle.Email className="app-email-companies">
+          <appStyle.Email
+            className="app-email-companies"
+            href="mailto:companies@lastkeyrecruiting.com"
+            target="_blank">
             companies@lastkeyrecruiting.com
           </appStyle.Email>
         </appStyle.EmailWrapper>

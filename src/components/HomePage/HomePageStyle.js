@@ -17,6 +17,10 @@ export const HeadingWrapper = styled('div')`
   display: flex;
   flex-direction: row;
   padding-top: 10px;
+
+  @media (min-width: ${styles.m}) {
+    margin-top: 3.8vh;
+  }
 `;
 
 export const Heading = styled('h1')`
