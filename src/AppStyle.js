@@ -102,6 +102,20 @@ export const EmailWrapper = styled('div')`
   flex-direction: column;
 `;
 
+export const Cta = styled('h2')`
+  display: flex;
+  align-self: center;
+  color: gray;
+  font-size: 1.2vw;
+  padding: 2px 0;
+  margin: 0 4vw;
+  text-decoration: none;
+
+  @media (max-width: ${styles.m}) {
+    font-size: 3.2vw;
+  }
+`;
+
 export const Email = styled('a')`
   display: flex;
   align-self: center;
@@ -110,6 +124,7 @@ export const Email = styled('a')`
   padding: 2px 0;
   margin: 0 4vw;
   text-decoration: none;
+  font-weight: bold;
 
   @media (max-width: ${styles.m}) {
     font-size: 3.2vw;
