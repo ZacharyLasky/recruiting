@@ -44,6 +44,11 @@ export const TextSpan = styled('span')`
   color: ${(props) => props.textSectionColor || 'white'};
   font-size: 1.4vw;
 
+  @media (min-width: ${styles.xxxl}) {
+    font-size: 1.0vw;
+    max-width: 100vw;
+  }
+
   @media (max-width: ${styles.m}) {
     font-size: 2.8vw;
     max-width: 100vw;
