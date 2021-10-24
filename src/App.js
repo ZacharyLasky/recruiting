@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import * as appStyle from './AppStyle';
 import * as lib from './lib';
 import * as assets from './assets';
@@ -14,7 +13,7 @@ export default function App() {
   const promiseRef = useRef();
 
   useEffect(() => {
-    if (!window.location.pathname.includes('jobs')) {
+    if (!window.location.hash.includes('jobs')) {
       if (chevronClickCount === 1) {
         missionRef.current.scrollIntoView({ behavior: 'smooth' });
         return;
@@ -39,7 +38,7 @@ export default function App() {
 
   return (
     <>
-      {window.location.href.includes('jobs') ? (
+      {window.location.hash.includes('jobs') ? (
         <JobPage />
       ) : (
         <appStyle.Container className="app-container">
