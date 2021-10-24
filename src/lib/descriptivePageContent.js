@@ -25,7 +25,7 @@ export const purposeContent = {
     highlightedText:
       'relying on buzz words and leaving the actual vetting process to the companies themselves.',
     third:
-      'We think that we improve that process dramatically, saving people and companies time and money.'
+      'We improve that process dramatically, saving people and companies time and money.'
   },
   textSectionColor: styles.yellow,
   image: assets.updatedResume,

@@ -41,11 +41,11 @@ export const ParagraphWrapper = styled('div')`
 
 export const TextSpan = styled('span')`
   font-weight: bold;
-  color: ${(props) => props.textSectionColor || 'white'};
+  color: ${(props) => props.textSectionColor || 'gray'};
   font-size: 1.4vw;
 
   @media (min-width: ${styles.xxxl}) {
-    font-size: 1.0vw;
+    font-size: 1vw;
     max-width: 100vw;
   }
 

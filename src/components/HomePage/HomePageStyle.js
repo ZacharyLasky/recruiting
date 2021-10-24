@@ -24,7 +24,7 @@ export const HeadingWrapper = styled('div')`
 `;
 
 export const Heading = styled('h1')`
-  color: white;
+  color: gray;
   font-size: 3vw;
   font-weight: normal;
   margin: 0 auto;
