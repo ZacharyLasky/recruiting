@@ -1,3 +1,4 @@
 import HomePage from './HomePage/HomePage';
 import DescriptivePage from './DescriptivePage/DescriptivePage';
-export { HomePage, DescriptivePage };
+import JobPage from './JobPage/JobPage';
+export { HomePage, DescriptivePage, JobPage };
