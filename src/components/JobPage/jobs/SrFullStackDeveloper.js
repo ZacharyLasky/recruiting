@@ -63,7 +63,7 @@ export const SrFullStackDeveloper = () => {
 
       <h3>Preferred Qualifications</h3>
       <ul>
-        <li>5+ years of experience in C#, .NET,.NET Core</li>
+        <li>5+ years of experience in C#, .NET, .NET Core</li>
         <li>Experience with Python</li>
         <li>Experience with containerization technology such as Docker</li>
         <li>Experience with pub/sub system such as Kafka</li>
