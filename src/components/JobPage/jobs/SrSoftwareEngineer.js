@@ -58,6 +58,7 @@ export const SrSoftwareEngineer = () => {
 
       <h3>What we offer</h3>
       <ul>
+        <li>Starting salary: 115k/year - 125k/year</li>
         <li>Work/life balance: we say it, we mean it!</li>
         <li>
           Generous benefits package: medical, vision and dental benefits, generous 401(k), FSA,
