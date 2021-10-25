@@ -1,2 +1,3 @@
 import { SrFrontendEngineer } from './SrFrontendEngineer';
-export { SrFrontendEngineer };
+import { SrFullStackDeveloper } from './SrFullStackDeveloper';
+export { SrFrontendEngineer, SrFullStackDeveloper };

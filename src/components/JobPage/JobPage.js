@@ -11,6 +11,9 @@ export default function JobPage() {
           <Route exact path="/jobs/srfrontendengineer">
             <jobs.SrFrontendEngineer />
           </Route>
+          <Route exact path="/jobs/srfullstackdeveloper">
+            <jobs.SrFullStackDeveloper />
+          </Route>
           <Route path="/jobs">
             <h2>No jobs here</h2>
           </Route>
