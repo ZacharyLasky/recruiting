@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const SrFullStackDeveloper = () => {
   return (
     <Container>
-      <h2>Sr. Full Stack Developer</h2>
+      <h2>Senior Full Stack Developer</h2>
 
       <h3>Company Location: Chandler, AZ (100% remote role)</h3>
 

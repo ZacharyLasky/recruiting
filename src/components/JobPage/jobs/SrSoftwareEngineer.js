@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const SrSoftwareEngineer = () => {
   return (
     <Container>
-      <h2>Sr. Software Engineer</h2>
+      <h2>Senior Software Engineer</h2>
 
       <p>
         Searching for an experienced and motivated full-time Senior Software Engineer as a remote
