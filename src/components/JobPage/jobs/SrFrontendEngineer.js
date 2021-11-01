@@ -23,7 +23,7 @@ export const SrFrontendEngineer = () => {
         </li>
         <li>
           Work closely with the Director of Engineering to ensure smooth deployment and integration
-          into the software ecosystem.
+          into the software ecosystem
         </li>
         <li>Contribute to user testing efforts</li>
         <li>Stay abreast of the state of technology, especially React.js</li>
