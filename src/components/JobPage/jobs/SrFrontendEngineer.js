@@ -6,7 +6,7 @@ export const SrFrontendEngineer = () => {
     <Container>
       <h2>Senior Frontend Engineer</h2>
       <ul>
-        <li>Salary: $100k-$130k</li>
+        <li>Salary: $100k-160k</li>
         <li>Location: Anywhere in US (100% remote)</li>
         <li>Experience Required: 4+ years</li>
         <li>Only US Citizens and Greencard holders</li>
